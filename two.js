@@ -1,10 +1,11 @@
-//variable
-var eid=101;
-var ename="Rahul Gandhi";
-var esal = 45000.45;
-//read
-console.log(eid)
-console.log(ename)
-console.log(esal)
+let colors=["red","bule","black","yellow"]
 
-document.writeln(eid)
+let sizes=[38,40,42,44,46]
+
+let specification={
+    "fits":"Slim",
+    "size":"M"
+}
+console.log(colors)
+console.log(sizes)
+console.log(specification)

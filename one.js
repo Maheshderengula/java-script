@@ -1,12 +1,14 @@
-//variable
-var eid=101;
-var ename="Rahul Gandhi";
-var esal = 45000.45;
+var price=399;
+var product_Name="Men shirts"
+var avail=false
+var discount;
+
+var product_Id=957237766n;
+
 //read
-document.writeln(eid)
-document.writeln("<br/>")
 
-document.writeln(ename)
-document.writeln("<br/>")
-
-document.writeln(esal)
+console.log (typeof price)
+console.log (typeof product_Name)
+console.log (typeof avail)
+console.log (typeof discount)
+console.log (typeof product_Id)
