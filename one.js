@@ -1,14 +1,8 @@
-var price=399;
-var product_Name="Men shirts"
-var avail=false
-var discount;
-
-var product_Id=957237766n;
-
-//read
-
-console.log (typeof price)
-console.log (typeof product_Name)
-console.log (typeof avail)
-console.log (typeof discount)
-console.log (typeof product_Id)
+let enames=["Rahul","Sonia","Priyanka","Modi"]
+//index         0     1         2           3
+//read array element using indexing
+console.log(enames[0])
+console.log(enames[1])
+console.log(enames[2])
+console.log(enames[3])
+console.log(enames[8])

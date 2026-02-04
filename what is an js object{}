@@ -1,0 +1,5 @@
+group of key values pairs as one entity
+duplicates key are not allowed ,but values are allowed
+indexing conceptnot applicable
+js -object is not itreable
+but we can create using for -in loop

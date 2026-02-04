@@ -1,0 +1,6 @@
+group of elemennts as one entity
+allowed duplicates&allowed hetregones elemennts
+elemennts are stored based an indexing [0 to n-1]
+note:-ve indexing not possible 
+order/insertion order maintained
+js-array is a itreable object - for loop, while loop, do{} while,for-of
