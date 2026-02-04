@@ -1,11 +1,16 @@
-let colors=["red","bule","black","yellow"]
+let a =10;
+let b =20.5;
+let c ="30";
+let d ="rahul";
+let e =true;
+let f =false;
+let g ;
 
-let sizes=[38,40,42,44,46]
-
-let specification={
-    "fits":"Slim",
-    "size":"M"
-}
-console.log(colors)
-console.log(sizes)
-console.log(specification)
+//multiply;
+console.log(a*b)
+console.log(a*c)
+console.log(a*d)
+console.log(a*e)
+console.log(a*f)
+console.log(a*g)
+console.log(e*f)

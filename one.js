@@ -1,8 +1,15 @@
-let enames=["Rahul","Sonia","Priyanka","Modi"]
-//index         0     1         2           3
-//read array element using indexing
-console.log(enames[0])
-console.log(enames[1])
-console.log(enames[2])
-console.log(enames[3])
-console.log(enames[8])
+//addtion
+let a =10;
+let b =20.5;
+let c ="30";
+let d ="rahul";
+let e =true;
+let f =false;
+let g ;
+//add;
+console.log(a+b)
+console.log(a+c)
+console.log(a+d)
+console.log(a+e)
+console.log(a+f)
+console.log(e+f)
