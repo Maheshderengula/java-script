@@ -1,10 +1,12 @@
+let enames=["RG","SG","PG","MODI"]
+//index     0      1    2    3
+console.log(enames)
+console.log(enames.length)
 /*
-wap to print 1,2,3,4,5
-initilzation st:let i=1
-codition st: i<=5
-incr/decr st: i=i+1/i++
-*/
-for (let i =1;i<=5;i++) {
-console.log(i)
-}
+how to read array element - using indexing
 
+*/
+console.log(enames[0])
+console.log(enames[1])
+console.log(enames[2])
+console.log(enames[3])
