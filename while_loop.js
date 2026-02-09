@@ -44,5 +44,13 @@ while(m< num.length){
 
 }
 console.log(found ?"found":"not found");
+// remove items until condition met:
+let tasks = ["a","b","c","d"];
+
+while (tasks.length >2) {
+    tasks.pop();
+
+}
+console.log(tasks);
 
 
