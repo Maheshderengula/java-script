@@ -1,16 +1,10 @@
-let a =10;
-let b =20.5;
-let c ="30";
-let d ="rahul";
-let e =true;
-let f =false;
-let g ;
+/*
+wap to print 1,2,3,4,5
+initilzation st:let i=1
+codition st: i<=100
+incr/decr st: i=i+1/i++
+*/
+for(let i=1;i<=100;i++){
+    console.log("i value",i)
 
-//multiply;
-console.log(a*b)
-console.log(a*c)
-console.log(a*d)
-console.log(a*e)
-console.log(a*f)
-console.log(a*g)
-console.log(e*f)
+}

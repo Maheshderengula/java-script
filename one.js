@@ -1,15 +1,10 @@
-//addtion
-let a =10;
-let b =20.5;
-let c ="30";
-let d ="rahul";
-let e =true;
-let f =false;
-let g ;
-//add;
-console.log(a+b)
-console.log(a+c)
-console.log(a+d)
-console.log(a+e)
-console.log(a+f)
-console.log(e+f)
+/*
+wap to print 1,2,3,4,5
+initilzation st:let i=1
+codition st: i<=5
+incr/decr st: i=i+1/i++
+*/
+for (let i =1;i<=5;i++) {
+console.log(i)
+}
+
