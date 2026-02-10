@@ -1,10 +1,10 @@
-/*
-wap to print 1,2,3,4,5
-initilzation st:let i=1
-codition st: i<=100
-incr/decr st: i=i+1/i++
-*/
-for(let i=1;i<=100;i++){
-    console.log("i value",i)
-
+let employees=[
+    {eid:101,ename:"Rahul",esal:45000,gender:"Male"},
+    {eid:102,ename:"Sonia",esal:55000,gender:"Female"},
+    {eid:103,ename:"Priya",esal:65000,gender:"Female"},
+    {eid:104,ename:"Modi",esal:75000,gender:"Male"},
+    {eid:105,ename:"Amith",esal:85000,gender:"Male"}
+]
+for( let emp of employees){
+    console.log(emp.ename)
 }
