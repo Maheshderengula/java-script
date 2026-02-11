@@ -1,12 +1,111 @@
-let enames=["RG","SG","PG","MODI"]
-//index     0      1    2    3
-console.log(enames)
-console.log(enames.length)
-/*
-how to read array element - using indexing
+let employees=[{"eid":1,"enames":"Hildegarde","gender":"Female","country":"Portugal"},
+{"eid":2,"enames":"Ariel","gender":"Female","country":"Argentina"},
+{"eid":3,"enames":"Saidee","gender":"Female","country":"Japan"},
+{"eid":4,"enames":"Annnora","gender":"Female","country":"Ukraine"},
+{"eid":5,"enames":"Torrance","gender":"Male","country":"Haiti"},
+{"eid":6,"enames":"Janene","gender":"Female","country":"Colombia"},
+{"eid":7,"enames":"Thomasa","gender":"Female","country":"Vietnam"},
+{"eid":8,"enames":"Marlo","gender":"Male","country":"Russia"},
+{"eid":9,"enames":"Mirabella","gender":"Female","country":"United States"},
+{"eid":10,"enames":"Merlina","gender":"Female","country":"Philippines"},
+{"eid":11,"enames":"Faustina","gender":"Female","country":"Sudan"},
+{"eid":12,"enames":"Cleopatra","gender":"Female","country":"Belarus"},
+{"eid":13,"enames":"Claire","gender":"Female","country":"Pakistan"},
+{"eid":14,"enames":"Bard","gender":"Male","country":"Indonesia"},
+{"eid":15,"enames":"Dom","gender":"Male","country":"Belgium"},
+{"eid":16,"enames":"Reade","gender":"Male","country":"United States"},
+{"eid":17,"enames":"Freddy","gender":"Female","country":"France"},
+{"eid":18,"enames":"Eustacia","gender":"Female","country":"Poland"},
+{"eid":19,"enames":"Jacenta","gender":"Female","country":"Ukraine"},
+{"eid":20,"enames":"Amandie","gender":"Female","country":"Philippines"},
+{"eid":21,"enames":"Coleen","gender":"Female","country":"Russia"},
+{"eid":22,"enames":"Robinia","gender":"Female","country":"China"},
+{"eid":23,"enames":"Townie","gender":"Male","country":"Philippines"},
+{"eid":24,"enames":"Daphene","gender":"Female","country":"Spain"},
+{"eid":25,"enames":"Carlita","gender":"Female","country":"Ukraine"},
+{"eid":26,"enames":"Sigfrid","gender":"Male","country":"Poland"},
+{"eid":27,"enames":"Lauri","gender":"Female","country":"Vietnam"},
+{"eid":28,"enames":"Fletch","gender":"Male","country":"Afghanistan"},
+{"eid":29,"enames":"Berni","gender":"Female","country":"Brazil"},
+{"eid":30,"enames":"Trace","gender":"Male","country":"China"},
+{"eid":31,"enames":"Baldwin","gender":"Male","country":"China"},
+{"eid":32,"enames":"Salome","gender":"Female","country":"Ethiopia"},
+{"eid":33,"enames":"Lizette","gender":"Female","country":"Canada"},
+{"eid":34,"enames":"Howard","gender":"Male","country":"Indonesia"},
+{"eid":35,"enames":"Conrad","gender":"Male","country":"Venezuela"},
+{"eid":36,"enames":"Solomon","gender":"Male","country":"France"},
+{"eid":37,"enames":"Eben","gender":"Male","country":"Kazakhstan"},
+{"eid":38,"enames":"Adelheid","gender":"Female","country":"Indonesia"},
+{"eid":39,"enames":"Gwenni","gender":"Female","country":"Paraguay"},
+{"eid":40,"enames":"Bond","gender":"Male","country":"Greece"},
+{"eid":41,"enames":"Rosalind","gender":"Female","country":"Turkey"},
+{"eid":42,"enames":"Guthrey","gender":"Male","country":"Uruguay"},
+{"eid":43,"enames":"Cristen","gender":"Female","country":"Indonesia"},
+{"eid":44,"enames":"Bianca","gender":"Female","country":"Indonesia"},
+{"eid":45,"enames":"Jordana","gender":"Female","country":"Haiti"},
+{"eid":46,"enames":"Rodney","gender":"Male","country":"Bulgaria"},
+{"eid":47,"enames":"Abra","gender":"Female","country":"United States"},
+{"eid":48,"enames":"Darrell","gender":"Male","country":"Russia"},
+{"eid":49,"enames":"Sherill","gender":"Female","country":"Israel"},
+{"eid":50,"enames":"Alfons","gender":"Male","country":"United States"},
+{"eid":51,"enames":"Marlie","gender":"Female","country":"Indonesia"},
+{"eid":52,"enames":"Jephthah","gender":"Male","country":"Indonesia"},
+{"eid":53,"enames":"Gwyneth","gender":"Female","country":"China"},
+{"eid":54,"enames":"Hazel","gender":"Female","country":"South Korea"},
+{"eid":55,"enames":"Madelon","gender":"Female","country":"France"},
+{"eid":56,"enames":"Crosby","gender":"Bigender","country":"Thailand"},
+{"eid":57,"enames":"Fayette","gender":"Female","country":"Armenia"},
+{"eid":58,"enames":"Udall","gender":"Male","country":"Colombia"},
+{"eid":59,"enames":"Ode","gender":"Male","country":"China"},
+{"eid":60,"enames":"Sidney","gender":"Male","country":"China"},
+{"eid":61,"enames":"Sophronia","gender":"Female","country":"Canada"},
+{"eid":62,"enames":"Glynn","gender":"Male","country":"Indonesia"},
+{"eid":63,"enames":"Janet","gender":"Female","country":"China"},
+{"eid":64,"enames":"Samuele","gender":"Male","country":"Portugal"},
+{"eid":65,"enames":"Annissa","gender":"Female","country":"Ireland"},
+{"eid":66,"enames":"Karlene","gender":"Genderfluid","country":"Philippines"},
+{"eid":67,"enames":"Toddy","gender":"Male","country":"Serbia"},
+{"eid":68,"enames":"Christel","gender":"Female","country":"Jordan"},
+{"eid":69,"enames":"Seana","gender":"Female","country":"Czech Republic"},
+{"eid":70,"enames":"Huntlee","gender":"Male","country":"Russia"},
+{"eid":71,"enames":"Teddy","gender":"Female","country":"Russia"},
+{"eid":72,"enames":"Rhea","gender":"Female","country":"Chile"},
+{"eid":73,"enames":"Tymothy","gender":"Male","country":"Philippines"},
+{"eid":74,"enames":"Marta","gender":"Female","country":"Indonesia"},
+{"eid":75,"enames":"Freddy","gender":"Male","country":"Bangladesh"},
+{"eid":76,"enames":"Wynne","gender":"Female","country":"Uruguay"},
+{"eid":77,"enames":"Fulton","gender":"Non-binary","country":"China"},
+{"eid":78,"enames":"Brennen","gender":"Male","country":"Philippines"},
+{"eid":79,"enames":"Tobias","gender":"Male","country":"France"},
+{"eid":80,"enames":"Bartlet","gender":"Male","country":"China"},
+{"eid":81,"enames":"Barde","gender":"Male","country":"China"},
+{"eid":82,"enames":"Hyacinthie","gender":"Female","country":"Czech Republic"},
+{"eid":83,"enames":"Darbie","gender":"Polygender","country":"Ukraine"},
+{"eid":84,"enames":"Deeann","gender":"Genderfluid","country":"Colombia"},
+{"eid":85,"enames":"Carver","gender":"Male","country":"Indonesia"},
+{"eid":86,"enames":"Dodi","gender":"Female","country":"Poland"},
+{"eid":87,"enames":"Wells","gender":"Male","country":"China"},
+{"eid":88,"enames":"Dorthea","gender":"Female","country":"United States"},
+{"eid":89,"enames":"Horace","gender":"Male","country":"Poland"},
+{"eid":90,"enames":"Kermie","gender":"Male","country":"Peru"},
+{"eid":91,"enames":"Jobye","gender":"Polygender","country":"South Korea"},
+{"eid":92,"enames":"Ganny","gender":"Male","country":"Ethiopia"},
+{"eid":93,"enames":"Caryl","gender":"Female","country":"Croatia"},
+{"eid":94,"enames":"Petronille","gender":"Female","country":"Greece"},
+{"eid":95,"enames":"Maighdiln","gender":"Female","country":"Macedonia"},
+{"eid":96,"enames":"Mikaela","gender":"Female","country":"Ukraine"},
+{"eid":97,"enames":"Bradly","gender":"Male","country":"Kazakhstan"},
+{"eid":98,"enames":"Kameko","gender":"Female","country":"Uzbekistan"},
+{"eid":99,"enames":"Brynna","gender":"Female","country":"China"},
+{"eid":100,"enames":"Carey","gender":"Female","country":"France"}]
 
-*/
-console.log(enames[0])
-console.log(enames[1])
-console.log(enames[2])
-console.log(enames[3])
+//print no of female chaina employees
+//print no of male india employees
+
+let femae_count=0;
+for(let i=0;i<=employees.length-1;i++){
+    if(employees[i].gender==="Female" && employees[i].country==='China'){
+        femae_count++;
+    }
+}
+console.log("No of Female Employees:",femae_count)

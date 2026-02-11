@@ -1,10 +1,8 @@
-
-
 /*frist 10 even numbers 
 using for loop ,while loop and do..while loop
 */
 let i =1;
-do{
+while(i<=19){
     console.log(i);
-    i++;
-}while (i<=5)
+
+}i=i+2;
