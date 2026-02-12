@@ -1,10 +1,10 @@
+function add (a,b){
+    console.log(a+b)
 
+}
+add(10,20)
+add(10,200)
+add("10","20") //1020
+add("rahul") //rahulunfined
+add(1) //nan
 
-/*frist 10 even numbers 
-using for loop ,while loop and do..while loop
-*/
-let i =1;
-do{
-    console.log(i);
-    i++;
-}while (i<=5)
