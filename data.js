@@ -1,6 +1,12 @@
-function wish(a,b){
-    // alert(a+b)
-    //console.log(a+b)
-    document.writeln(a+b);
+function wish(){
+    alert("37");
+
 }
-//wish (10,20)
+function displayDT(){
+    let dt =new Date().toLocaleString();
+    console.log(dt)
+    document.writeln(dt)
+
+
+}
+
