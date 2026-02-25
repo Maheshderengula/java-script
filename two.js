@@ -1,12 +1,7 @@
-let j=1
-while (j<=10){
-  if (j !==6){
-    j++
-    continue
-  }
-  
-    console.log(j)
-    j++;
-  
-  
-}
+let a=100;
+let add=()=>{
+            console.log("Addition")
+        }
+console.log(typeof a)    //number   
+console.log(typeof add)  //function
+add()  //invoking function

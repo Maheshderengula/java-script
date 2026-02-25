@@ -1,10 +1,9 @@
-function add (a,b){
-    console.log(a+b)
-
-}
-add(10,20)
-add(10,200)
-add("10","20") //1020
-add("rahul") //rahulunfined
-add(1) //nan
-
+let a=100;
+//create function
+let add=()=>{
+            console.log("Addition")
+        }
+//invoking function
+add()
+add()
+add()
