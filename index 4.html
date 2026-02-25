@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script src="./data.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <button style="background-color: red;" 
+                onmouseover="changeColor1()" 
+                id="btn1"
+        >
+        MouseOuver
+        </button>
+        <hr>
+        <button style="background-color: red;" 
+                onmouseout="changeColor2()" 
+                id="btn2"
+        >
+        MouseOut
+        </button>
+        <hr>
+        <button style="background-color: red;" 
+                onclick="changeColor3()" 
+                id="btn3"
+        >
+        Click
+        </button>
+        <hr>
+        <button style="background-color: red;" 
+                ondblclick="changeColor4()" 
+                id="btn4"
+        >
+        Double Click
+        </button>
+        <hr>
+        <input type="text" id="ip1" onfocus="changeColor5()"/>
+        <hr>
+        <input type="text" id="ip2" onblur="changeCase()"/>
+    </body>
+</html>
